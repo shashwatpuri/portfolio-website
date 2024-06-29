@@ -53,9 +53,10 @@ export default function Blog() {
 
 export function BlogListItem({ imageLink, title, description, readingTime, publishDate }) {
 
+    
     return (
-        <div class="group bg-bgcolor2 rounded-2xl shadow-2xl hover:cursor-pointer">
-            <div class="flex h-64 justify-center items-center rounded-2xl overflow-hidden">
+        <div className=" rounded-2xl shadow-2xl hover:cursor-pointer group bg-bgcolor2">
+            <div className="flex h-64 justify-center items-center rounded-2xl overflow-hidden">
                 <img className="group-hover:scale-105 transition duration-300 object-cover rounded-2xl"
                     src={`${imageLink}`} alt="" />
             </div>

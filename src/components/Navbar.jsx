@@ -23,8 +23,14 @@ export default function Navbar() {
     }, [activeTab])
 
     return (
-        <nav className="border-l border-b border-bordercolor rounded-es-2xl rounded-se-2xl bg-bgcolor3 font-medium">
-            <ul className='flex px-10 py-4 gap-10'>
+        <nav className="border-t border-x rounded-t-xl border-bordercolor bg-bgcolor3/60 backdrop-blur text-xs
+        sm:text-sm
+        md:px-10 md:text-base 
+        lg:border-l lg:border-b lg:rounded-es-2xl lg:rounded-se-2xl lg:rounded-s-none lg:bg-bgcolor3 lg:font-medium
+         ">
+            <ul className="flex px-4 py-5 gap-5 justify-center
+            sm:gap-9
+            ">
                 <NavListItem label='About' activeTab={activeTab} setActiveTab={setActiveTab} />
                 <NavListItem label='Resume' activeTab={activeTab} setActiveTab={setActiveTab} />
                 <NavListItem label='Projects' activeTab={activeTab} setActiveTab={setActiveTab} />
