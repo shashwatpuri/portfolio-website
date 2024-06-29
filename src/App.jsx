@@ -63,7 +63,7 @@ function PageContainer() {
     xl:max-w-[900px]
     ">
       <div className="lg:relative">
-        <div className="fixed bottom-0 left-0 right-0
+        <div className="fixed z-50 bottom-0 left-0 right-0
         lg:absolute lg:top-0 lg:right-0 lg:left-auto
         ">
           <Navbar />
