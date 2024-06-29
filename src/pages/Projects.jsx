@@ -79,7 +79,8 @@ export function ProjectsSubNavbar({ activeTab, setActiveTab, tabList }) {
 
     return (
         <nav className="text-sm">
-            <ul className='flex py-2 gap-6'>
+            <ul className="flex justify-center py-2 gap-6
+            md:justify-start">
                 {tabList.map((element) => <NavListItem label={element} activeTab={activeTab} setActiveTab={setActiveTab} />)}
             </ul>
         </nav>
@@ -118,7 +119,9 @@ export function ProjectsListComponent({ activeTab }) {
 
     return (
         <>
-            <div className="grid grid-cols-3 gap-7">
+            <div className="grid grid-cols-1 gap-8
+            sm:grid-cols-2
+            lg:grid-cols-3">
 
                 {projectListDynamic.map((element) =>
                     <>
@@ -137,7 +140,7 @@ export function ProjectListItem({ title, tag, imageLink }) {
 
             <div class="relative mb-3 rounded-2xl overflow-hidden ">
                 <img className="group-hover:scale-110 transition duration-200 rounded-2xl" src={`${imageLink}`} alt="" />
-                
+
                 {/* On hover - Dimming & eye icon visible */}
                 <div className="flex absolute top-0 left-0 bottom-0 right-0 justify-center items-center group-hover:bg-[#000000]/50">
                     <div className="invisible group-hover:visible p-3 rounded-lg bg-bordercolor">
