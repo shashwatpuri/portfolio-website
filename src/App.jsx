@@ -36,8 +36,15 @@ export default function App() {
 }
 
 function Index() {
+
+  // className="grid grid-cols-1 xl:flex items-start gap-6 mx-12 my-14 justify-center text-textcolor2"
+
   return (
-    <div className="grid grid-cols-1 lg:flex items-start gap-6 mx-12 my-14 justify-center text-textcolor2">
+    <div className="flex flex-col gap-4 m-3 mb-24 text-textcolor2
+    sm:gap-8 sm:mt-14 sm:mx-7
+    md:mx-11
+    xl:flex-row xl:mx-4 xl:gap-6 xl:justify-center
+    ">
       <PersonalInfoSection />
       <PageContainer />
     </div>
@@ -45,12 +52,29 @@ function Index() {
 }
 
 function PageContainer() {
+
+  // className = "relative max-w-4xl w-4/6 border border-bordercolor rounded-2xl p-8 bg-bgcolor1"
+
   return (
-    <div className="relative max-w-4xl w-4/6 border border-bordercolor rounded-2xl p-8 bg-bgcolor1">
-      <div className="absolute top-0 right-0">
-        <Navbar />
+    <div className="w-full border border-bordercolor self-center bg-bgcolor1 rounded-2xl text-sm
+    sm:max-w-xl sm:text-[15px]
+    md:max-w-3xl md:text-base
+    lg:max-w-[950px]
+    xl:max-w-[900px]
+    ">
+      <div className="lg:relative">
+        <div className="fixed bottom-0 left-0 right-0
+        lg:absolute lg:top-0 lg:right-0 lg:left-auto
+        ">
+          <Navbar />
+        </div>
       </div>
-      <Outlet />
+
+      <div className="p-4 text-sm
+      sm:p-8 sm:text-base
+      ">
+        <Outlet />
+      </div>
     </div>
   )
 }
