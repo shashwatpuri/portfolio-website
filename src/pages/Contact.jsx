@@ -23,7 +23,8 @@ export function ContactTabsContainer() {
         <div className="flex flex-col">
 
             {/* LHS Container */}
-            <div className="flex justify-start gap-6 pb-5 overflow-x-auto hasScrollbar">
+            <div className="hasScrollbar flex flex-col justify-start gap-6 pb-5
+            sm:flex-row sm:overflow-x-auto">
 
                 <NicheInfoCard
                     imageSource={'web-development.svg'}
@@ -67,11 +68,10 @@ export function ContactTabsContainer() {
             </div>
 
             <br /><br />
-            <iframe className="self-center rounded-2xl border border-2 border-bordercolor h-[500px] w-2/3"
+            <iframe className="h-[500px] w-full self-center rounded-2xl border border-2 border-bordercolor 
+            md:w-9/12"
                 src="https://calendly.com/goswamishashwatpuri1/30min?background_color=1e1e1f&text_color=d6d6d6&primary_color=ffdb6e">
             </iframe>
-
-
 
         </div>
 
