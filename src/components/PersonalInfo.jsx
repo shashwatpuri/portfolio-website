@@ -7,7 +7,7 @@ export default function PersonalInfoSection() {
     const [collapseInfoItems, setCollapseInfoItems] = useState(true)
 
     return (
-        <aside className="self-center w-full relative flex flex-col overflow-auto p-4 border border-bordercolor rounded-2xl bg-bgcolor1 text-textcolor1 cursor-pointer
+        <aside className="self-center w-full relative flex flex-col overflow-auto p-4 pt-8 border border-bordercolor rounded-2xl bg-bgcolor1 text-textcolor1 cursor-pointer
         sm:max-w-xl sm:p-8
         md:max-w-3xl
         lg:max-w-[950px]
@@ -20,7 +20,7 @@ export default function PersonalInfoSection() {
             xl:invisible
             "
             >
-                Show Contacts
+                {collapseInfoItems? "Show Contacts":"Hide Contacts"}
             </button>
 
             <article className="flex flex-row gap-5 items-center

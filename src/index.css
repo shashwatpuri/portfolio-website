@@ -34,7 +34,7 @@ body {
 }
 
 .hasScrollbar::-webkit-scrollbar-track {
-    background: #383838;
+    background: #424242;
     border-radius: 5px;
 }
 
@@ -44,5 +44,5 @@ body {
 }
 
 .hasScrollbar::-webkit-scrollbar-button {
-    width: 80px;
+    width: 60px;
 }
