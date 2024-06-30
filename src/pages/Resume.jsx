@@ -34,7 +34,8 @@ export default function Resume() {
     return (
         <>
             <article>
-                <h1 className="text-3xl font-semibold text-textcolor1">Resume</h1>
+                <h1 className="text-2xl font-semibold text-textcolor1
+                sm:text-3xl">Resume</h1>
                 <div className="my-5 rounded-lg w-10 h-1.5 bg-accent1"></div>
             </article>
             <br />

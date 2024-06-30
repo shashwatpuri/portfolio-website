@@ -8,7 +8,8 @@ export default function NicheInfoCard({ nicheName, nicheDescription, imageSource
                     <img className='max-w-16' src={`${imageSource}`} />
                 </div>
                 <div>
-                    <h1 className="mb-2 text-lg font-semibold text-textcolor1">
+                    <h1 className="mb-1 font-semibold text-textcolor1 text-base
+                    sm:mb-2 sm:text-lg">
                         {nicheName}
                     </h1>
                     <div className="font-light">

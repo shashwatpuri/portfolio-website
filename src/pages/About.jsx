@@ -9,7 +9,8 @@ export default function About() {
     return (
         <>
             <article>
-                <h1 className="text-3xl font-semibold text-textcolor1">About Me</h1>
+                <h1 className="text-2xl font-semibold text-textcolor1
+                sm:text-3xl">About Me</h1>
                 <div className="my-5 rounded-lg w-10 h-1.5 bg-accent1"></div>
             </article>
 
@@ -19,11 +20,28 @@ export default function About() {
                 <p>{bioLine2}</p>
             </article>
 
-            <br /><br />
+            <br />
 
             <article>
-                <h1 className="text-2xl font-semibold text-textcolor1">What I'm Doing</h1><br />
-                <div className="grid grid-cols-2 gap-6 overflow-auto">
+                <h1 className="text-xl font-semibold text-textcolor1
+                sm:text-2xl">What I'm Doing</h1><br />
+                <div className="grid grid-cols-1 gap-6 overflow-auto
+                lg:grid-cols-2">
+                    <NicheInfoCard
+                        nicheName={'Web Development'}
+                        nicheDescription={'The most modern and high-quality design made at a professional level.'}
+                        imageSource='web-development.svg'
+                    />
+                    <NicheInfoCard
+                        nicheName={'Web Development'}
+                        nicheDescription={'The most modern and high-quality design made at a professional level.'}
+                        imageSource='web-development.svg'
+                    />
+                    <NicheInfoCard
+                        nicheName={'Web Development'}
+                        nicheDescription={'The most modern and high-quality design made at a professional level.'}
+                        imageSource='web-development.svg'
+                    />
                     <NicheInfoCard
                         nicheName={'Web Development'}
                         nicheDescription={'The most modern and high-quality design made at a professional level.'}
@@ -31,12 +49,13 @@ export default function About() {
                     />
 
                 </div>
+                <br />
             </article>
 
-            <br /><br />
 
             <article>
-                <h1 className="text-2xl font-semibold text-textcolor1">Testimonials</h1><br />
+                <h1 className="text-xl font-semibold text-textcolor1
+                sm:text-2xl">Testimonials</h1><br />
 
                 <div className="flex gap-6 pb-5 overflow-x-auto hasScrollbar">
 

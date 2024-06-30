@@ -34,11 +34,14 @@ export default function Blog() {
     return (
         <>
             <article>
-                <h1 className="text-3xl font-semibold text-textcolor1">Blog</h1>
+                <h1 className="text-2xl font-semibold text-textcolor1
+                sm:text-3xl">Blog</h1>
                 <div className="my-5 rounded-lg w-10 h-1.5 bg-accent1"></div>
             </article>
+            <br />
 
-            <div className="grid grid-cols-2 gap-10">
+            <div className="grid grid-cols-1 gap-6
+            md:grid-cols-2">
                 {blogList.map((element) => <BlogListItem
                     imageLink={element.social_image}
                     title={element.title}
@@ -53,18 +56,22 @@ export default function Blog() {
 
 export function BlogListItem({ imageLink, title, description, readingTime, publishDate }) {
 
-    
+
     return (
-        <div className=" rounded-2xl shadow-2xl hover:cursor-pointer group bg-bgcolor2">
-            <div className="flex h-64 justify-center items-center rounded-2xl overflow-hidden">
-                <img className="group-hover:scale-105 transition duration-300 object-cover rounded-2xl"
+        <div className="rounded-2xl shadow-2xl hover:cursor-pointer group bg-bgcolor2">
+            <div className="flex rounded-2xl overflow-hidden justify-center">
+                <img className="w-full h-60 group-hover:scale-105 transition duration-300 rounded-2xl object-cover
+                sm:h-72
+                md:h-56
+                lg:h-72"
                     src={`${imageLink}`} alt="" />
             </div>
 
-            <div className="p-6">
-
+            <div className="p-6 pt-3
+            sm:p-6">
                 <h6 class="text-sm text-textcolor2/80">{publishDate} &nbsp; •  &nbsp;{readingTime} min</h6>
-                <h6 class="py-2 text-textcolor1 font-bold text-2xl transition duration-300 group-hover:text-accent1">{title}</h6>
+                <h6 class="py-2 text-textcolor1 font-bold text-lg transition duration-300 group-hover:text-accent1
+                md:text-2xl">{title}</h6>
                 <h6 class="text-sm text-textcolor2/80">{description}</h6>
             </div>
         </div>

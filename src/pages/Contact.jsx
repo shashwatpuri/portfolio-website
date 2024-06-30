@@ -5,7 +5,8 @@ export default function Contact() {
     return (
         <>
             <article>
-                <h1 className="text-3xl font-semibold text-textcolor1">Contact</h1>
+                <h1 className="text-2xl font-semibold text-textcolor1
+                sm:text-3xl">Contact</h1>
                 <div className="my-5 rounded-lg w-10 h-1.5 bg-accent1"></div>
             </article>
 

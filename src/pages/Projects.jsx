@@ -64,7 +64,8 @@ export default function Projects() {
     return (
         <>
             <article>
-                <h1 className="text-3xl font-semibold text-textcolor1">Portfolio</h1>
+                <h1 className="text-2xl font-semibold text-textcolor1
+                sm:text-3xl">Portfolio</h1>
                 <div className="my-5 rounded-lg w-10 h-1.5 bg-accent1"></div>
             </article>
 
@@ -136,9 +137,9 @@ export function ProjectsListComponent({ activeTab }) {
 
 export function ProjectListItem({ title, tag, imageLink }) {
     return (
-        <div class="group hover:cursor-pointer">
+        <div className="group hover:cursor-pointer">
 
-            <div class="relative mb-3 rounded-2xl overflow-hidden ">
+            <div className="max-h-72 relative mb-3 rounded-2xl overflow-hidden">
                 <img className="group-hover:scale-110 transition duration-200 rounded-2xl" src={`${imageLink}`} alt="" />
 
                 {/* On hover - Dimming & eye icon visible */}
@@ -153,8 +154,8 @@ export function ProjectListItem({ title, tag, imageLink }) {
             </div>
 
             <div className="pl-3">
-                <h6 class=" text-textcolor1 font-medium">{title}</h6>
-                <h6 class="text-textcolor2/80">{tag}</h6>
+                <h6 className=" text-textcolor1 font-medium">{title}</h6>
+                <h6 className="text-textcolor2/80">{tag}</h6>
             </div>
         </div>
     )
