@@ -2,28 +2,28 @@
   from = "/About"
   to = "/"
   status = 404
-  force = false
+  force = true
 
   [[redirects]]
   from = "/Blog"
   to = "/"
   status = 404
-  force = false
+  force = true
 
   [[redirects]]
   from = "/Contact"
   to = "/"
   status = 404
-  force = false
+  force = true
 
   [[redirects]]
   from = "/Projects"
   to = "/"
   status = 404
-  force = false
+  force = true
 
   [[redirects]]
   from = "/Resume"
   to = "/"
   status = 404
-  force = false
+  force = true
