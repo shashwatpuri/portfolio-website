@@ -1,5 +1,6 @@
 import GradientCardContainer from "../components/GradientCardContainer"
 import NicheInfoCard from "../components/NicheInfoCard"
+import SkillCard from "../components/SkillCard"
 
 
 export default function About() {
@@ -27,6 +28,7 @@ export default function About() {
                 sm:text-2xl">What I'm Doing</h1><br />
                 <div className="grid grid-cols-1 gap-6 overflow-auto
                 lg:grid-cols-2">
+
                     <NicheInfoCard
                         nicheName={'Web Development'}
                         nicheDescription={'The most modern and high-quality design made at a professional level.'}
@@ -52,32 +54,43 @@ export default function About() {
                 <br />
             </article>
 
-
             <article>
                 <h1 className="text-xl font-semibold text-textcolor1
-                sm:text-2xl">Testimonials</h1><br />
+                sm:text-2xl">My Skills</h1><br />
 
                 <div className="flex gap-6 pb-5 overflow-x-auto hasScrollbar">
 
-                    <NicheInfoCard
-                        nicheName={'Web Development'}
-                        nicheDescription={'The most modern and high-quality design made at a professional level.'}
-                        imageSource='web-development.svg'
+                    <SkillCard
+                        skillName={'React.js'}
+                        imageSource='reactlogo.svg'
                     />
-                    <NicheInfoCard
-                        nicheName={'Web Development'}
-                        nicheDescription={'The most modern and high-quality design made at a professional level.'}
-                        imageSource='web-development.svg'
+                    <SkillCard
+                        skillName={'Tailwind'}
+                        imageSource='tailwindcsslogo.svg'
                     />
-                    <NicheInfoCard
-                        nicheName={'Web Development'}
-                        nicheDescription={'The most modern and high-quality design made at a professional level.'}
-                        imageSource='web-development.svg'
+                    <SkillCard
+                        skillName={'Node.js'}
+                        imageSource='nodejslogo.svg'
                     />
-                    <NicheInfoCard
-                        nicheName={'Web Development'}
-                        nicheDescription={'The most modern and high-quality design made at a professional level.'}
-                        imageSource='web-development.svg'
+                    <SkillCard
+                        skillName={'Express.js'}
+                        imageSource='expressjslogo.svg'
+                    />
+                    <SkillCard
+                        skillName={'MongoDB'}
+                        imageSource='mongodblogo.svg'
+                    />
+                    <SkillCard
+                        skillName={'JavaScript'}
+                        imageSource='jslogo.svg'
+                    />
+                    <SkillCard
+                        skillName={'Next.js'}
+                        imageSource='nextjslogo.svg'
+                    />
+                    <SkillCard
+                        skillName={'Prisma (ORMs)'}
+                        imageSource='prismalogo.svg'
                     />
                 </div>
             </article>
