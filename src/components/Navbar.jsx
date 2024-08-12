@@ -33,8 +33,8 @@ export default function Navbar() {
             ">
                 <NavListItem label='About' activeTab={activeTab} setActiveTab={setActiveTab} />
                 <NavListItem label='Resume' activeTab={activeTab} setActiveTab={setActiveTab} />
-                <NavListItem label='Projects' activeTab={activeTab} setActiveTab={setActiveTab} />
-                <NavListItem label='Blog' activeTab={activeTab} setActiveTab={setActiveTab} />
+                {/* <NavListItem label='Projects' activeTab={activeTab} setActiveTab={setActiveTab} /> */}
+                {/* <NavListItem label='Blog' activeTab={activeTab} setActiveTab={setActiveTab} /> */}
                 <NavListItem label='Contact' activeTab={activeTab} setActiveTab={setActiveTab} />
             </ul>
         </nav>

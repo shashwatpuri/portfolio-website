@@ -22,45 +22,45 @@ export function ContactTabsContainer() {
 
         <div className="flex flex-col">
 
-            {/* LHS Container */}
+            {/* Horizontal scroll contact options  */}
             <div className="hasScrollbar flex flex-col justify-start gap-6 pb-5
             sm:flex-row sm:overflow-x-auto">
 
                 <NicheInfoCard
-                    imageSource={'web-development.svg'}
-                    nicheName={"linkedin contact"}
+                    imageSource={'linkedinlogo.svg'}
+                    nicheName={"Connect On LinkedIn"}
                     nicheDescription={
                         <div>
-                            <p>We are here to support you all the way</p>
-                            <a className="text-textcolor1 text-sm hover:text-textcolor2"
-                                href="https://wwww.google.com">
-                                Contact Support 🡥
+                            <p>I talk all things tech. Shoot me a dm!</p>
+                            <a className="text-textcolor1 text-sm hover:text-accent1"
+                                href="https://www.linkedin.com/in/shashwat-puri/" target="_blank">
+                                Click Here 🡥
                             </a>
                         </div>
                     }
                 />
                 <NicheInfoCard
-                    imageSource={'web-development.svg'}
-                    nicheName={"linkedin contact"}
+                    imageSource={'calendlylogo.svg'}
+                    nicheName={"Book Me On Calendly"}
                     nicheDescription={
-                        <div>
-                            <p>We are here to support you all the way</p>
-                            <a className="text-textcolor1 text-sm hover:text-textcolor2"
-                                href="https://wwww.google.com">
-                                Contact Support 🡥
+                        <div className="">
+                            <p>Find a slot on Calendly & setup a meeting.</p>
+                            <a className="text-textcolor1 text-sm hover:text-accent1"
+                                href="https://calendly.com/goswamishashwatpuri1/30min">
+                                Click Here 🡥
                             </a>
                         </div>
                     }
                 />
                 <NicheInfoCard
-                    imageSource={'web-development.svg'}
-                    nicheName={"linkedin contact"}
+                    imageSource={'emaillogo.svg'}
+                    nicheName={"Drop Me An Email"}
                     nicheDescription={
                         <div>
-                            <p>We are here to support you all the way</p>
-                            <a className="text-textcolor1 text-sm hover:text-textcolor2"
-                                href="https://wwww.google.com">
-                                Contact Support 🡥
+                            <p>Or maybe.. emails would work</p>
+                            <a className="text-textcolor1 text-sm hover:text-accent1"
+                                href="mailto:goswamishashwatpuri1@gmail.com">
+                                Click Here 🡥
                             </a>
                         </div>
                     }

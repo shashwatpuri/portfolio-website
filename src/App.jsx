@@ -22,8 +22,8 @@ const router = createBrowserRouter(
     <Route path='/' element={<Index />}>
       <Route path="About" element={<About />} />
       <Route path="Resume" element={<Resume />} />
-      <Route path="Projects" element={<Projects />} />
-      <Route path="Blog" element={<Blog />} />
+      {/* <Route path="Projects" element={<Projects />} /> */}
+      {/* <Route path="Blog" element={<Blog />} /> */}
       <Route path="Contact" element={<Contact />} />
     </Route>
   )
@@ -36,8 +36,6 @@ export default function App() {
 }
 
 function Index() {
-
-  // className="grid grid-cols-1 xl:flex items-start gap-6 mx-12 my-14 justify-center text-textcolor2"
 
   return (
     <div className="flex flex-col gap-4 m-3 mb-24 text-textcolor2
