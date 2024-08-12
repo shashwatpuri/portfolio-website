@@ -1,33 +1,6 @@
 import InfoIconWrapper from "../components/InfoIconWrapper";
-import { TimelineItem, TimelineSection } from "../components/TimelineComponents";
-
-const experienceTimeline = [{
-    title: "University of Arts Ndpm",
-    tenure: "2018 - 2022",
-    description: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
-}, {
-    title: "University of Arts Ndpm",
-    tenure: "2018 - 2022",
-    description: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
-}, {
-    title: "University of Arts Ndpm",
-    tenure: "2018 - 2022",
-    description: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
-}]
-
-const educationTimeline = [{
-    title: "University of Arts Ndpm",
-    tenure: "2018 - 2022",
-    description: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
-}, {
-    title: "University of Arts Ndpm",
-    tenure: "2018 - 2022",
-    description: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
-}, {
-    title: "University of Arts Ndpm",
-    tenure: "2018 - 2022",
-    description: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
-}]
+import { TimelineSection } from "../components/TimelineComponents";
+import { educationTimeline, experienceTimeline } from "../config";
 
 
 export default function Resume() {
@@ -39,7 +12,7 @@ export default function Resume() {
                 <div className="my-5 rounded-lg w-10 h-1.5 bg-accent1"></div>
             </article>
             <br />
-            
+
             {/* Experience section */}
             <article>
                 <div className="flex items-center gap-4 pb-5">
@@ -66,7 +39,6 @@ export default function Resume() {
                 </div>
                 <TimelineSection timelineObject={educationTimeline} />
             </article>
-
         </>
     )
 }

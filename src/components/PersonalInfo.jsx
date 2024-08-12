@@ -56,7 +56,7 @@ export default function PersonalInfoSection() {
 
                 <InfoItem
                     label={'EMAIL'}
-                    info={'shashwat@audiency.media'}
+                    info={'goswamishashwatpuri1@gmail.com'}
                     graphic={
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1} stroke="#FFDB6E" className="size-5">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
@@ -84,7 +84,7 @@ export default function PersonalInfoSection() {
                 />
                 <InfoItem
                     label={'LINKEDIN'}
-                    info={<a href="https://wwww.google.com">linkedin.com/shashwat-puri</a>}
+                    info={<a href="https://www.linkedin.com/in/shashwat-puri/" target="_blank">linkedin.com/shashwat-puri</a>}
                     graphic={
                         <svg xmlns="http://www.w3.org/2000/svg" className="size-5" viewBox="0 0 24 24">
                             <path fill="#ffd86e" d="M18.44 3.06H5.56a2.507 2.507 0 0 0-2.5 2.5v12.88a2.507 2.507 0 0 0 2.5 2.5h12.88a2.5 2.5 0 0 0 2.5-2.5V5.56a2.5 2.5 0 0 0-2.5-2.5m1.5 15.38a1.51 1.51 0 0 1-1.5 1.5H5.56a1.51 1.51 0 0 1-1.5-1.5V5.56a1.51 1.51 0 0 1 1.5-1.5h12.88a1.51 1.51 0 0 1 1.5 1.5Z"></path>

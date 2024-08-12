@@ -5,7 +5,7 @@ export default function NicheInfoCard({ nicheName, nicheDescription, imageSource
         <GradientCardContainer>
             <article className="flex min-w-72 gap-4">
                 <div className="pt-2">
-                    <img className='max-w-16' src={`${imageSource}`} />
+                    <img className='max-w-12' src={`${imageSource}`} />
                 </div>
                 <div>
                     <h1 className="mb-1 font-semibold text-textcolor1 text-base

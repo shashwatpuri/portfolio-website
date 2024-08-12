@@ -37,8 +37,6 @@ export default function App() {
 
 function Index() {
 
-  // className="grid grid-cols-1 xl:flex items-start gap-6 mx-12 my-14 justify-center text-textcolor2"
-
   return (
     <div className="flex flex-col gap-4 m-3 mb-24 text-textcolor2
     sm:gap-8 sm:mt-14 sm:mx-7
