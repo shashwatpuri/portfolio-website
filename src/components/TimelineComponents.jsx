@@ -30,7 +30,8 @@ export function TimelineItem({ title, tenure, description, organization }) {
                 <h2 className="mt-1 mb-1 font-semibold text-textcolor1">
                     {title}
                 </h2>
-                <p className="mb-2 text-text2/80 text-sm">{organization}</p>
+                <p className="mb-2 text-text2/80 text-sm
+                md:text-base">{organization}</p>
                 <p className="mb-1 text-accent1/80 text-sm">{tenure}</p>
                 <p className="mb-1 font-light text-sm">{description.bullet1}</p>
                 <p className="mb-1 font-light text-sm">{description.bullet2}</p>
