@@ -29,7 +29,7 @@
   force = true
 
   [[redirects]]
-  from = "/a/audiency"
+  from = "/a/:name"
   to = "/"
   status = 404
   force = true
