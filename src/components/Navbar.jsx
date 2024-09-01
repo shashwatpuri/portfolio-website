@@ -37,6 +37,8 @@ export default function Navbar() {
                 {/* <NavListItem label='Blog' activeTab={activeTab} setActiveTab={setActiveTab} /> */}
                 <NavListItem label='Contact' activeTab={activeTab} setActiveTab={setActiveTab} />
             </ul>
+            <button onClick={()=>{navigate('/a/audiency')}}>Shashwat</button>
+
         </nav>
     )
 }
