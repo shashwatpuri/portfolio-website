@@ -15,6 +15,7 @@ import Projects from "./pages/Projects";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import PersonalInfoSection from "./components/PersonalInfo";
+import Application from "./pages/Application";
 
 
 const router = createBrowserRouter(
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       {/* <Route path="Projects" element={<Projects />} /> */}
       {/* <Route path="Blog" element={<Blog />} /> */}
       <Route path="Contact" element={<Contact />} />
+      <Route path="/a/:name" element={<Application />} />
     </Route>
   )
 );
@@ -58,7 +60,7 @@ function PageContainer() {
     sm:max-w-xl sm:text-[15px]
     md:max-w-3xl md:text-base
     lg:max-w-[950px]
-    xl:max-w-[900px]
+    xl:max-w-[900px] xl:self-start
     ">
       <div className="lg:relative">
         <div className="fixed z-50 bottom-0 left-0 right-0
