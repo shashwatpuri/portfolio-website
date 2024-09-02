@@ -200,4 +200,41 @@ export const applicationsData = {
         ],
         skills: skillList,
     },
+    
+    floqer: {
+        trackingLink: 'https://2ly.link/1zVVf',
+        heading1: `Floqer needs a Software Dev intern!`,
+        personalization: [
+            `You're building an all in one tool to automate the prospecting process for B2B market, and you need a SDE intern at your team.`
+            ,
+            `You need someone experienced in React, Typescript and Node to build APIs and components for your product.`
+            ,
+            `you need an intern who understands the product, gels quickly with the team, gets up and runign with minimal pampering.`
+        ],  
+        heading2: `I understand the SDE intern role & JD.`,
+        pitch: [{
+            title: "I have prior tech and b2b marketing experience",
+            description: {
+                bullet1: `● I've used Clay, PersanaAI (YC backed) and built pipelines for b2b clients`,
+                bullet2: `● I understand inherent value proposition, UX, UI of the kind of product you're building`,
+                bullet3: `● Major part of such applications is 3rd party provider integrations.`,
+            }
+        }, {
+            title: `I have MERN stack experience`,
+            description: {
+                bullet1: `● I hve been part of live MERN stack and Devops cohort and have built mini-projects to hone my skills.`,
+                bullet2: `● This landing page and website is built on React + TailwindCSS`,
+                bullet3: `● Being a graduate IT engineer with past React Native experience, I can rapidly learn new tech and frameworks.`,
+                bullet4: `● I'm building more projects to showcase my expertise.`,
+            }
+        }, {
+            title: `I've trained interns myself and understand responsiblities.`,
+            description: {
+                bullet1: `● You need an intern who you can mentor, yet also need them to be responsible and self managed.`,
+                bullet2: `● You need someone so can quickly fit like a into whole Floqer's flywheel and start contributing`,
+            },
+        },
+        ],
+        skills: skillList,
+    },
 }
