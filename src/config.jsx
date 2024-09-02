@@ -33,7 +33,6 @@ export const infoItems = [
     },
 ]
 
-
 // About section
 export const bioLines = [
     `I'm a MERN Stack developer with strong foundation in building robust and scalable web applications.
@@ -131,13 +130,14 @@ export const educationTimeline = [{
     }
 }]
 
+
 // applications data
 export const applicationsData = {
 
     audiency: {
-        trackingLink: '',
-        companyName: "Audiency Media",
-        position: "Founder Needed",
+        trackingLink: 'https://2ly.link/1zVO4',
+        companyName: "Lunacal",
+        position: "Frontend Developer",
         personalization: [
             `I'm a MERN Stack developer with strong foundation in building robust and scalable web applications.
             I bring a blend of technical expertise and business acumen.`
@@ -148,8 +148,6 @@ export const applicationsData = {
         ],
         pitch: [{
             title: "Reas;edflkg;lSKJDFct Native Developer, Marketing Strategist",
-            organization: "Aaramsa",
-            tenure: "Jul 2020 - Oct 2020",
             description: {
                 bullet1: '● Developed React Native app for quick grocery delivery service during COVID-19.',
                 bullet2: '● Integrated with Laravel based backend via APIs. Created dynamic elements for announcements.',
@@ -157,9 +155,47 @@ export const applicationsData = {
             }
         }, {
             title: "Mastaskjfd aler of Business Administration",
-            tenure: "Jan 2023 - Present",
             description: {
-                bullet1: 'Specialization - Finance & IT management',
+                bullet1: '● Developed React Native app for quick grocery delivery service during COVID-19.',
+                bullet2: '● Integrated with Laravel based backend via APIs. Created dynamic elements for announcements.',
+                bullet3: '● Did market research for running paid traffic campaigns.',
+            },
+        },
+        ],
+        skills: skillList,
+    },
+
+    lunacal: {
+        trackingLink: 'https://2ly.link/1zVO4',
+        companyName: "Lunacal",
+        position: "Front-end Developer",
+        heading1: `Lunacal needs a Fronet-end Dev!`,
+        personalization: [
+            `I just spoke to Pranshu on call and was immediately thrilled to know what you're building here at Lunacal.`
+            ,
+            `You JD mentiones Next.js & React - and I had to immediately apply as I'm already working on them.`
+            ,
+            `You're building a new Calendar and much more, and you need a sensible, pragmatic intern who can take on Frontend Dev hat, without much pampering.`
+        ],
+        heading2: `I understand the role :)`,
+        pitch: [{
+            title: "You need someone who's worked on React + Tailwind & Nextjs.",
+            description: {
+                bullet1: `● This page itself is built on React + Tailwind :)`,
+                bullet2: `● I understand Next's paradigm and opinionated approach fairly.`,
+                bullet3: `● Currently part of a Full Stack development live cohort - offered by Harkirat Singh. Constantly upgrading my skills.`,
+            }
+        }, {
+            title: `I assume you're fast paced.`,
+            description: {
+                bullet1: `● You need an intern who you can mentor, yet also need them to be responsible and self managed. `,
+                bullet2: `● You need someone so can quickly fit like a cog into whole Lunacal's wheelbase and start contributing`,
+            },
+            title: `I've trained interns myself.`,
+            description: {
+                bullet1: `● At my previous business (Audiency) I trained a team of 4 interns`,
+                bullet2: `● I preciasely understand how interns are expected to perform in a team`,
+                bullet3: `● Hence I'm ready to bring that experience to the table.`,
             },
         },
         ],
