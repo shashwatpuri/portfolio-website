@@ -167,9 +167,7 @@ export const applicationsData = {
 
     lunacal: {
         trackingLink: 'https://2ly.link/1zVO4',
-        companyName: "Lunacal",
-        position: "Front-end Developer",
-        heading1: `Lunacal needs a Fronet-end Dev!`,
+        heading1: `Lunacal needs a Front-end Dev!`,
         personalization: [
             `I just spoke to Pranshu on call and was immediately thrilled to know what you're building here at Lunacal.`
             ,
@@ -190,7 +188,8 @@ export const applicationsData = {
             description: {
                 bullet1: `● You need an intern who you can mentor, yet also need them to be responsible and self managed. `,
                 bullet2: `● You need someone so can quickly fit like a cog into whole Lunacal's wheelbase and start contributing`,
-            },
+            }
+        }, {
             title: `I've trained interns myself.`,
             description: {
                 bullet1: `● At my previous business (Audiency) I trained a team of 4 interns`,
