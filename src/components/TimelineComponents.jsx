@@ -33,10 +33,11 @@ export function TimelineItem({ title, tenure, description, organization }) {
                 <p className="mb-2 text-text2/80 text-sm
                 md:text-base">{organization}</p>
                 <p className="mb-1 text-accent1/80 text-sm">{tenure}</p>
-                <p className="mb-1 font-light text-sm">{description.bullet1}</p>
-                <p className="mb-1 font-light text-sm">{description.bullet2}</p>
-                <p className="mb-1 font-light text-sm">{description.bullet3}</p>
-                <p className="mb-1 font-light text-sm">{description.bullet4}</p>
+                {Object.values(description).map((bullet, index) => {
+                    return (
+                        <p key={index} className="mb-1 font-light text-sm">{bullet}</p>
+                    )
+                })}
             </div>
         </li >
     )

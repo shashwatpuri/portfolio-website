@@ -35,15 +35,15 @@ export const infoItems = [
 
 // About section
 export const bioLines = [
-    `I'm a MERN Stack developer with strong foundation in building robust and scalable web applications.
-    I bring a blend of technical expertise and business acumen.`
-    ,
-    `A graduate IT Engineer currently pursuing an MBA at Bharati Vidyapeeth University to further enhance my strategic thinking.`
-    ,
-    `Founded Audiency Media in Jan 2022 - a b2b marketing agency for 2 years, honed my skills in automation, client management & cold email campmaigns.
-    Now, fueled by a renewed passion for coding.`
-    ,
-    `Proficient in MERN, ORMs, deployment, HTML, CSS, and JavaScript, I'm eager to contribute to dynamic projects.`
+  "Fullstack engineer and founder with 3.5+ years of experience building AI-driven tools, internal platforms, and growth engines.",
+  "Specializes in scalable systems using Next.js, Node.js, and GPT-powered automation.",
+  "Founder of Audiency Media - a performance-based B2B lead gen agency helping businesses book qualified meetings via cold email and LinkedIn.",
+  "Built tools that have generated over 10,000+ personalized landing pages, 5,000+ scheduling links, and 300+ long-form SEO blogs, all powered by AI.",
+  "Expert in integrating OpenAI APIs, Puppeteer, Strapi, and Fastspring into real-world product workflows.",
+  "Developed internal dashboards and lead scoring systems that saved 150+ hours/month and doubled reply rates.",
+  "Comfortable owning features end-to-end — from idea to deployment — with CI/CD pipelines and Azure/Vercel infrastructure.",
+  "Passionate about automating sales, creating growth levers, and building for founders who want to scale fast.",
+  "Proficient in MERN, ORMs, deployment, HTML, CSS, and JavaScript, Typescript, React, Next.js Gen-AI, LangChain, MCP protocol, I'm eager to contribute to dynamic projects."
 ]
 
 export const skillList = [
@@ -79,14 +79,36 @@ export const whatCanIDo = [
 
 // Resume section
 export const experienceTimeline = [{
-    title: "Co-Owner | B2B Outbound",
-    organization: "Audiency Media",
-    tenure: "Jan 2022 - March 2024",
+    title: "Software Development Engineer",
+    organization: "Lunacal.ai",
+    tenure: "Sep 2024 - present",
     description: {
-        bullet1: '● Content strategies for B2B founders & ran outbound campaigns - brought $300k in pipeline for them.',
-        bullet2: '● Created automations using google Appscript & webhooks',
-        bullet3: '● Managed list building, cleaning & optimized campagins using data analysis.',
-        bullet4: '● Worked on Low-Code tools like Wix, Bubble.io.',
+        1: "● Built a scalable blog infrastructure using Next.js (SSG/SSR) and Strapi CMS, delivering static SEO-optimized content via headless architecture with minimal runtime overhead",
+
+        2: "● Developed an AI-powered programmatic SEO system using Azure OpenAI Assistants API to generate and auto-publish 300+ long-form blog posts via Strapi REST APIs; ranked 3 priority keywords on Google’s first page and saved 20+ hours/week of manual effort.",
+
+        3: "● Integrated AI-powered scheduling page creation into the user onboarding flow using scraped LinkedIn and website data transformed via GPT‑4; automated setup reduced friction and improved retention.",
+
+        4: "● Engineered a system to auto-generate 5,000+ personalized scheduling pages for outbound leads by combining LinkedIn and website data with GPT API-generated bios, company info, and testimonials; delivered claimable links via email, increasing signup rates by 50%.",
+
+        5: "● Integrated Fastspring payment gateway into the platform to support trials, subscriptions, seat-based billing, and cancellations; automated the entire billing lifecycle with zero reliance on manual intervention.",
+
+        6: "● Set up Azure-based infrastructure with App Service (hosting), Container Registry (Docker), Blob Storage (files), and Front Door (routing & domains). Integrated GitHub Actions for CI/CD, automating Docker builds, ACR pushes, and zero-downtime deployments."
+    }
+}, {
+    title: "Fullstack developer",
+    organization: "Audiency Media",
+    tenure: "Jan 2022 - August 2024",
+    description: {
+        1: "● Built a React/Next.js drag-and-drop builder to auto-generate 10,000+ fully personalized Video Sales Letter (VSL) landing pages (one per lead) by combining lead data with GPT-powered dynamic sections; saved 150+ hours of manual work and consistently doubled meeting rates across 30+ campaigns.",
+
+        2: "● Built a centralized dashboard using Next.js and Prisma to aggregate KPIs & campaign data from Instantly.ai and Notion; improved visibility across 30+ campaigns and saved 10+ hours/week via automated reporting workflows.",
+
+        3: "● Deployed internal tools and dashboards using Vercel, enabling fast iteration, CI/CD workflows, and zero-maintenance infrastructure.",
+
+        4: "● Built an AI-powered lead scoring system that analyzed scraped website content, company LinkedIn activity, and individual lead profiles—automated 80% of manual vetting and improved reply rates by 2.1×.",
+
+        5: "● Built email generation system using Puppeteer, OpenAI APIs, and dynamic prompt templates to generate personalized cold emails from lead data (web content, LinkedIn profiles); reduced manual workload by 90%, cut bounce rates by 25%, and achieved 85%+ inbox placement."
     }
 }, {
     title: "React Native Developer",
@@ -95,24 +117,15 @@ export const experienceTimeline = [{
     description: {
         bullet1: '● Developed React Native app for an in-house product.',
         bullet2: '● Integrated a Tensorflow model into the application using TFLite.',
-        bullet3: '● Used compresssion techniques to shrink APK size by 50%.',
-        bullet4: '● Prepared the product to be pitched to investors.',
+        bullet3: '● Used compresssion techniques to shrink APK size by 50%.'
     }
-}, {
-    title: "React Native Developer, Marketing Strategist",
-    organization: "Aaramsa",
-    tenure: "Jul 2020 - Oct 2020",
-    description: {
-        bullet1: '● Developed React Native app for quick grocery delivery service during COVID-19.',
-        bullet2: '● Integrated with Laravel based backend via APIs. Created dynamic elements for announcements.',
-        bullet3: '● Did market research for running paid traffic campaigns.',
-    }
-}]
+}
+]
 
 export const educationTimeline = [{
     title: "Master of Business Administration",
     organization: "Bharati Vidyapeeth University SOE - Online Mode",
-    tenure: "Jan 2023 - Present",
+    tenure: "Jan 2023 - May 2025",
     description: {
         bullet1: 'Specialization - Finance & IT management',
     }
@@ -200,7 +213,7 @@ export const applicationsData = {
         ],
         skills: skillList,
     },
-    
+
     floqer: {
         trackingLink: 'https://2ly.link/1zVVf',
         heading1: `Floqer needs a Software Dev intern!`,
@@ -210,7 +223,7 @@ export const applicationsData = {
             `You need someone experienced in React, Typescript and Node to build APIs and components for your product.`
             ,
             `you need an intern who understands the product, gels quickly with the team, gets up and runign with minimal pampering.`
-        ],  
+        ],
         heading2: `I understand the SDE intern role & JD.`,
         pitch: [{
             title: "I have prior tech and b2b marketing experience",
